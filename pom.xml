@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>E2EProject</name>
   <url>http://maven.apache.org</url>
+
   
   
 
@@ -28,12 +29,17 @@
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
+        
+        
       </plugin>
+      
   
 </plugins>
   
+</build>
+ 
   
-  </build>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
