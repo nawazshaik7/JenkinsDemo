@@ -15,15 +15,4 @@
       </class> <!-- Academy.HomePage -->
     </classes>
   </test> <!-- Validating User login(failed) -->
-  <test thread-count="5" name="Validating title in the Page(failed)">
-    <classes>
-      <class name="Academy.validateTitle">
-        <methods>
-          <include name="initialize"/>
-          <include name="validateAppTitle"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- Academy.validateTitle -->
-    </classes>
-  </test> <!-- Validating title in the Page(failed) -->
 </suite> <!-- Failed suite [Suite] -->
